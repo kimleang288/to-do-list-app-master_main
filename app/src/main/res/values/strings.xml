@@ -1,7 +1,13 @@
 <resources>
     <string name="app_name">To-Do List App</string>
+
     <string name="title_activity_main">MainActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string name="add_project">Add Project</string>
+    <string name="project_name">Project Name</string>
+    <string name="input_here">Input here...</string>
+    <string name="description">Description</string>
 </resources>
