@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_user_profile_picture.png.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/user_profile_picture.png"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_calendar.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/calendar.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_circle.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/circle.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_home.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/home.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_arrow_down_4.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/arrow_down_4.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/layout_activity_login.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/layout/activity_login.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_briefcase.png.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/briefcase.png"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_ellipse.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/ellipse.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/xml_data_extraction_rules.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_start_cover.png.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/start_cover.png"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_profile_iamge.png.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/profile_iamge.png"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_office_project.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/office_project.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_add.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/add.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/layout_acitvity_add.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/layout/acitvity_add.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_icon.png.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/icon.png"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/layout_activity_main.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_document_text.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/document_text.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_useroctagon.png.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/useroctagon.png"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_notification.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/notification.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_arrow_right.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/arrow_right.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_more.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/more.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/layout_progress_task_view.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/layout/progress_task_view.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/layout_fragment_home.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_profile_2user.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/profile_2user.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/xml_backup_rules.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_ic_add.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/menu_bottom_nav_menu.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_arrow_left.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/arrow_left.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/layout_task_group_view.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/layout/task_group_view.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_book.png.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/book.png"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-4:/drawable_user_octagon.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/drawable/user_octagon.xml"
+    }
+]

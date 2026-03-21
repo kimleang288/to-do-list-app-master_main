@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-3:/layout/progress_task_view.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/layout/progress_task_view.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-3:/layout/fragment_home.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-3:/layout/acitvity_add.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/layout/acitvity_add.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-3:/layout/activity_login.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/layout/activity_login.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-3:/layout/task_group_view.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-6:/layout/task_group_view.xml"
+    }
+]
