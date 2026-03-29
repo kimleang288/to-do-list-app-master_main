@@ -1,57 +1,94 @@
 package kh.edu.rupp.to_dolistapp;
 
+import android.app.DatePickerDialog;
 import android.os.Bundle;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView; // Added for the back button
+import android.view.View;
+import android.widget.DatePicker;
+import android.widget.ImageButton;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
+import com.google.android.material.button.MaterialButton;
+import com.google.android.material.textfield.TextInputEditText;
+import java.util.Calendar;
 
 public class AddActivity extends AppCompatActivity {
 
-    private EditText etProjectName;
-    private EditText etDescription;
-    private Button btnAddProject;
-    private ImageView btnBack; // Added
+    private TextInputEditText etTaskName;
+    private TextInputEditText etDescription;
+    private TextInputEditText etDueDate;
+    private MaterialButton btnSaveTask;
+    private ImageButton backHomeBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        // CRITICAL: Ensure your XML filename is exactly 'acitvity_add'
-        // (Note the spelling 'acitvity' matches your previous prompt)
         setContentView(R.layout.acitvity_add);
 
-        // Initialize views
-        etProjectName = findViewById(R.id.projectName);
-        etDescription = findViewById(R.id.description);
-        btnAddProject = findViewById(R.id.btnAddProject);
-        btnBack = findViewById(R.id.btnBack); // Initialize back button
+        // Find all views
+        etTaskName = findViewById(R.id.etTaskName);
+        etDescription = findViewById(R.id.etDescription);
+        etDueDate = findViewById(R.id.etDueDate);
+        btnSaveTask = findViewById(R.id.btnSaveTask);
+        backHomeBtn = findViewById(R.id.backHomeBtn);
 
-        // Handle Back Button Click
-        btnBack.setOnClickListener(v -> {
-            finish(); // Closes this activity and goes back to the previous screen
+        // Back button → go back to MainActivity
+        backHomeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
         });
 
-        // Handle Add Project Click
-        btnAddProject.setOnClickListener(v -> {
-            saveProject();
+        // Due date field → show date picker
+        etDueDate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Calendar calendar = Calendar.getInstance();
+                int year = calendar.get(Calendar.YEAR);
+                int month = calendar.get(Calendar.MONTH);
+                int day = calendar.get(Calendar.DAY_OF_MONTH);
+
+                DatePickerDialog datePicker = new DatePickerDialog(
+                        AddActivity.this,
+                        new DatePickerDialog.OnDateSetListener() {
+                            @Override
+                            public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                                String selectedDate = dayOfMonth + "/" + (month + 1) + "/" + year;
+                                etDueDate.setText(selectedDate);
+                            }
+                        },
+                        year, month, day
+                );
+                datePicker.show();
+            }
+        });
+
+        // Save button
+        btnSaveTask.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                saveTask();
+            }
         });
     }
 
-    private void saveProject() {
-        String name = etProjectName.getText().toString().trim();
-        String desc = etDescription.getText().toString().trim();
+    private void saveTask() {
+        String name = etTaskName.getText().toString().trim();
+        String description = etDescription.getText().toString().trim();
+        String dueDate = etDueDate.getText().toString().trim();
 
+        // Validate fields
         if (name.isEmpty()) {
-            etProjectName.setError("Project name is required");
+            etTaskName.setError("Task name is required");
+            return;
+        }
+        if (dueDate.isEmpty()) {
+            etDueDate.setError("Due date is required");
             return;
         }
 
-        // For now, we just show a toast.
-        // Later, you can send this data back to MainActivity or a Database.
-        Toast.makeText(this, "Project '" + name + "' Added!", Toast.LENGTH_SHORT).show();
-
-        finish();
+        // Show success message
+        Toast.makeText(this, "Task '" + name + "' Saved!", Toast.LENGTH_SHORT).show();
+        finish(); // go back to MainActivity
     }
 }

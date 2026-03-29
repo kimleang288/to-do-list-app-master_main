@@ -3825,6 +3825,7 @@ id autoHide
 id autoLimit
 id availableSpace
 id axisRelative
+id backHomeBtn
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3837,10 +3838,10 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btnAddProject
-id btnBack
+id btnSaveTask
 id buttonPanel
 id cache_measures
+id calendar
 id callMeasure
 id cancel_button
 id cardBackground
@@ -3855,6 +3856,15 @@ id chain2
 id chains
 id checkbox
 id checked
+id chipGroupPriority
+id chipGroupTaskGroup
+id chipHealth
+id chipHigh
+id chipLow
+id chipMedium
+id chipOffice
+id chipPersonal
+id chipStudy
 id chronometer
 id circle_center
 id circularProgress
@@ -3887,7 +3897,6 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
-id description
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3925,6 +3934,10 @@ id enterAlways
 id enterAlwaysCollapsed
 id entireSpace
 id escape
+id etDescription
+id etDueDate
+id etTaskDemo
+id etTaskName
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -4125,7 +4138,6 @@ id pressed
 id progressBar
 id progress_circular
 id progress_horizontal
-id projectName
 id purplesCard
 id radio
 id ratio
@@ -4682,6 +4694,7 @@ string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
 string title_activity_main
+string title_calendar
 string title_dashboard
 string title_home
 string title_notifications

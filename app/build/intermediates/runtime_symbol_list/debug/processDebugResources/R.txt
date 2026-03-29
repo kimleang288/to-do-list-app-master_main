@@ -3824,6 +3824,7 @@ int id autoHide 0x7f08005a
 int id autoLimit 0x7f08005b
 int id availableSpace 0x7f08005c
 int id axisRelative 0x7f08005d
+int id backHomeBtn 0x7f08005e
 int id barrier 0x7f08005f
 int id baseline 0x7f080060
 int id beginOnFirstDraw 0x7f080061
@@ -3836,10 +3837,10 @@ int id bounce 0x7f080067
 int id bounceBoth 0x7f080068
 int id bounceEnd 0x7f080069
 int id bounceStart 0x7f08006a
-int id btnAddProject 0x7f08023b
-int id btnBack 0x7f08023c
+int id btnSaveTask 0x7f08006b
 int id buttonPanel 0x7f08006c
 int id cache_measures 0x7f08006d
+int id calendar 0x7f08023f
 int id callMeasure 0x7f08006e
 int id cancel_button 0x7f08006f
 int id cardBackground 0x7f080070
@@ -3854,6 +3855,15 @@ int id chain2 0x7f080078
 int id chains 0x7f080079
 int id checkbox 0x7f08007a
 int id checked 0x7f08007b
+int id chipGroupPriority 0x7f08007c
+int id chipGroupTaskGroup 0x7f08007d
+int id chipHealth 0x7f08007e
+int id chipHigh 0x7f08007f
+int id chipLow 0x7f080080
+int id chipMedium 0x7f080081
+int id chipOffice 0x7f080082
+int id chipPersonal 0x7f080083
+int id chipStudy 0x7f080084
 int id chronometer 0x7f080085
 int id circle_center 0x7f080086
 int id circularProgress 0x7f080087
@@ -3886,7 +3896,6 @@ int id decor_content_parent 0x7f0800a1
 int id default_activity_button 0x7f0800a2
 int id deltaRelative 0x7f0800a3
 int id dependency_ordering 0x7f0800a4
-int id description 0x7f08023d
 int id design_bottom_sheet 0x7f0800a5
 int id design_menu_item_action_area 0x7f0800a6
 int id design_menu_item_action_area_stub 0x7f0800a7
@@ -3924,6 +3933,10 @@ int id enterAlways 0x7f0800c6
 int id enterAlwaysCollapsed 0x7f0800c7
 int id entireSpace 0x7f0800c8
 int id escape 0x7f0800c9
+int id etDescription 0x7f0800ca
+int id etDueDate 0x7f0800cb
+int id etTaskDemo 0x7f0800cc
+int id etTaskName 0x7f0800cd
 int id exitUntilCollapsed 0x7f0800ce
 int id expand_activities_button 0x7f0800cf
 int id expanded_menu 0x7f0800d0
@@ -4124,7 +4137,6 @@ int id pressed 0x7f080192
 int id progressBar 0x7f080193
 int id progress_circular 0x7f080194
 int id progress_horizontal 0x7f080195
-int id projectName 0x7f08023e
 int id purplesCard 0x7f080196
 int id radio 0x7f080197
 int id ratio 0x7f080198
@@ -4681,6 +4693,7 @@ int string side_sheet_accessibility_pane_title 0x7f1100b1
 int string side_sheet_behavior 0x7f1100b2
 int string status_bar_notification_info_overflow 0x7f1100b3
 int string title_activity_main 0x7f1100b4
+int string title_calendar 0x7f1100b8
 int string title_dashboard 0x7f1100b5
 int string title_home 0x7f1100b6
 int string title_notifications 0x7f1100b7

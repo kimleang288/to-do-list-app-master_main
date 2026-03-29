@@ -12,8 +12,8 @@
         "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\layout\\task_group_view.xml"
     },
     {
-        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-45:/layout/progress_task_view.xml",
-        "source": "kh.edu.rupp.to_dolistapp-main-48:/layout/progress_task_view.xml"
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-45:/layout/acitvity_add.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-48:/layout/acitvity_add.xml"
     },
     {
         "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-mergeDebugResources-45:\\layout\\activity_main.xml",

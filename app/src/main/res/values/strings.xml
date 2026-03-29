@@ -5,6 +5,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_calendar">calendar</string>
 
     <string name="add_project">Add Project</string>
     <string name="project_name">Project Name</string>

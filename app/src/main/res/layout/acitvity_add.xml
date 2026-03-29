@@ -1,121 +1,217 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="28dp"
-    android:layout_marginHorizontal="22dp">
+    android:fillViewport="true">
 
-    <LinearLayout
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_vertical">
+        android:paddingTop="?actionBarSize"
+        android:paddingBottom="24dp"
+        android:paddingHorizontal="24dp"
+        android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/btnBack"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:clickable="true"
-            android:importantForAccessibility="no"
-            android:src="@drawable/arrow_left"
-            tools:ignore="TouchTargetSizeCheck" />
-
-        <TextView
-            android:layout_width="0dp"
+        <!-- Header bar -->
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/add_project"
-            android:textSize="19sp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+
+            <ImageButton
+                android:id="@+id/backHomeBtn"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/arrow_left"
+                android:background="@color/white"/>
+
+            <TextView
+                android:layout_marginHorizontal="24dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Create Task"
+                android:textStyle="bold"
+                android:textSize="24sp"/>
+        </LinearLayout>
+
+        <!-- Task name Input -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etTaskName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Task name" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Description Input -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description"
+                android:minLines="3"
+                android:gravity="top"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Due Date Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Due Date"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Due Date Picker -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etDueDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select due date"
+                android:focusable="false"
+                android:clickable="true"
+                android:cursorVisible="false"
+                android:drawableStart="@android:drawable/ic_menu_my_calendar"
+                android:drawablePadding="8dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Task Group Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
             android:textColor="@color/black"
-            android:textAlignment="center"/>
+            android:text="Task Group"
+            android:layout_marginBottom="12dp"/>
 
-        <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:importantForAccessibility="no"
-            android:src="@drawable/notification"/>
-
-    </LinearLayout>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        app:cardCornerRadius="15dp">
-
-        <LinearLayout
+        <!-- Task Group Chips -->
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupTaskGroup"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:padding="16dp">
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:singleSelection="true">
 
-            <TextView
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipOffice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/project_name"
-                android:textSize="9sp"
-                tools:ignore="SmallSp" />
+                android:text="Office Project"
+                android:checkable="true"
+                android:checked="true"
+                style="@style/Widget.MaterialComponents.Chip.Choice" />
 
-            <EditText
-                android:id="@+id/projectName"
-                android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:hint="@string/input_here"
-                android:inputType="text"
-                android:textColor="@color/black"
-                android:textSize="14sp"
-                tools:ignore="Autofill,DuplicateSpeakableTextCheck,VisualLintTextFieldSize" />
-
-        </LinearLayout>
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        app:cardCornerRadius="15dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:padding="16dp">
-
-            <TextView
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipPersonal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/description"
-                android:textSize="9sp"
-                tools:ignore="SmallSp" />
+                android:text="Personal Project"
+                android:checkable="true"
+                style="@style/Widget.MaterialComponents.Chip.Choice" />
 
-            <EditText
-                android:id="@+id/description"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:hint="@string/input_here"
-                android:textSize="11sp"
-                android:textColor="@color/black"
-                android:ems="10"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                tools:ignore="Autofill,VisualLintTextFieldSize" />
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipStudy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daily Study"
+                android:checkable="true"
+                style="@style/Widget.MaterialComponents.Chip.Choice" />
 
-        </LinearLayout>
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipHealth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Health"
+                android:checkable="true"
+                style="@style/Widget.MaterialComponents.Chip.Choice" />
+        </com.google.android.material.chip.ChipGroup>
 
-    </androidx.cardview.widget.CardView>
+        <!-- Priority Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Priority"
+            android:layout_marginBottom="12dp"/>
 
-    <Button
-        android:id="@+id/btnAddProject"
-        android:layout_width="331dp"
-        android:layout_height="52dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="100dp"
-        android:text="@string/add_project"
-        android:textSize="19sp"
-        app:cornerRadius="14dp"
-        tools:ignore="VisualLintButtonSize,DuplicateSpeakableTextCheck" />
+        <!-- Priority Chips -->
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupPriority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            app:singleSelection="true">
 
-</LinearLayout>
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipLow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Low"
+                android:checkable="true"
+                style="@style/Widget.MaterialComponents.Chip.Choice" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium"
+                android:checkable="true"
+                android:checked="true"
+                style="@style/Widget.MaterialComponents.Chip.Choice" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipHigh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High"
+                android:checkable="true"
+                style="@style/Widget.MaterialComponents.Chip.Choice" />
+        </com.google.android.material.chip.ChipGroup>
+
+        <!-- Task list display (debug/demo) -->
+        <TextView
+            android:id="@+id/etTaskDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text=""/>
+
+        <!-- Save Task Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSaveTask"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Save Task"
+            android:textSize="16sp"
+            android:backgroundTint="#6B3FA0"
+            android:layout_marginTop="16dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

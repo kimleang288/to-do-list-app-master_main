@@ -4,14 +4,17 @@ package kh.edu.rupp.to_dolistapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
+import android.widget.ImageButton;
+import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.google.android.material.button.MaterialButton;
+import com.google.android.material.chip.Chip;
+import com.google.android.material.chip.ChipGroup;
+import com.google.android.material.textfield.TextInputEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -19,32 +22,81 @@ import kh.edu.rupp.to_dolistapp.R;
 
 public final class AcitvityAddBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
-  public final Button btnAddProject;
+  public final ImageButton backHomeBtn;
 
   @NonNull
-  public final ImageView btnBack;
+  public final MaterialButton btnSaveTask;
 
   @NonNull
-  public final EditText description;
+  public final ChipGroup chipGroupPriority;
 
   @NonNull
-  public final EditText projectName;
+  public final ChipGroup chipGroupTaskGroup;
 
-  private AcitvityAddBinding(@NonNull LinearLayout rootView, @NonNull Button btnAddProject,
-      @NonNull ImageView btnBack, @NonNull EditText description, @NonNull EditText projectName) {
+  @NonNull
+  public final Chip chipHealth;
+
+  @NonNull
+  public final Chip chipHigh;
+
+  @NonNull
+  public final Chip chipLow;
+
+  @NonNull
+  public final Chip chipMedium;
+
+  @NonNull
+  public final Chip chipOffice;
+
+  @NonNull
+  public final Chip chipPersonal;
+
+  @NonNull
+  public final Chip chipStudy;
+
+  @NonNull
+  public final TextInputEditText etDescription;
+
+  @NonNull
+  public final TextInputEditText etDueDate;
+
+  @NonNull
+  public final TextView etTaskDemo;
+
+  @NonNull
+  public final TextInputEditText etTaskName;
+
+  private AcitvityAddBinding(@NonNull ScrollView rootView, @NonNull ImageButton backHomeBtn,
+      @NonNull MaterialButton btnSaveTask, @NonNull ChipGroup chipGroupPriority,
+      @NonNull ChipGroup chipGroupTaskGroup, @NonNull Chip chipHealth, @NonNull Chip chipHigh,
+      @NonNull Chip chipLow, @NonNull Chip chipMedium, @NonNull Chip chipOffice,
+      @NonNull Chip chipPersonal, @NonNull Chip chipStudy, @NonNull TextInputEditText etDescription,
+      @NonNull TextInputEditText etDueDate, @NonNull TextView etTaskDemo,
+      @NonNull TextInputEditText etTaskName) {
     this.rootView = rootView;
-    this.btnAddProject = btnAddProject;
-    this.btnBack = btnBack;
-    this.description = description;
-    this.projectName = projectName;
+    this.backHomeBtn = backHomeBtn;
+    this.btnSaveTask = btnSaveTask;
+    this.chipGroupPriority = chipGroupPriority;
+    this.chipGroupTaskGroup = chipGroupTaskGroup;
+    this.chipHealth = chipHealth;
+    this.chipHigh = chipHigh;
+    this.chipLow = chipLow;
+    this.chipMedium = chipMedium;
+    this.chipOffice = chipOffice;
+    this.chipPersonal = chipPersonal;
+    this.chipStudy = chipStudy;
+    this.etDescription = etDescription;
+    this.etDueDate = etDueDate;
+    this.etTaskDemo = etTaskDemo;
+    this.etTaskName = etTaskName;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -69,32 +121,99 @@ public final class AcitvityAddBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnAddProject;
-      Button btnAddProject = ViewBindings.findChildViewById(rootView, id);
-      if (btnAddProject == null) {
+      id = R.id.backHomeBtn;
+      ImageButton backHomeBtn = ViewBindings.findChildViewById(rootView, id);
+      if (backHomeBtn == null) {
         break missingId;
       }
 
-      id = R.id.btnBack;
-      ImageView btnBack = ViewBindings.findChildViewById(rootView, id);
-      if (btnBack == null) {
+      id = R.id.btnSaveTask;
+      MaterialButton btnSaveTask = ViewBindings.findChildViewById(rootView, id);
+      if (btnSaveTask == null) {
         break missingId;
       }
 
-      id = R.id.description;
-      EditText description = ViewBindings.findChildViewById(rootView, id);
-      if (description == null) {
+      id = R.id.chipGroupPriority;
+      ChipGroup chipGroupPriority = ViewBindings.findChildViewById(rootView, id);
+      if (chipGroupPriority == null) {
         break missingId;
       }
 
-      id = R.id.projectName;
-      EditText projectName = ViewBindings.findChildViewById(rootView, id);
-      if (projectName == null) {
+      id = R.id.chipGroupTaskGroup;
+      ChipGroup chipGroupTaskGroup = ViewBindings.findChildViewById(rootView, id);
+      if (chipGroupTaskGroup == null) {
         break missingId;
       }
 
-      return new AcitvityAddBinding((LinearLayout) rootView, btnAddProject, btnBack, description,
-          projectName);
+      id = R.id.chipHealth;
+      Chip chipHealth = ViewBindings.findChildViewById(rootView, id);
+      if (chipHealth == null) {
+        break missingId;
+      }
+
+      id = R.id.chipHigh;
+      Chip chipHigh = ViewBindings.findChildViewById(rootView, id);
+      if (chipHigh == null) {
+        break missingId;
+      }
+
+      id = R.id.chipLow;
+      Chip chipLow = ViewBindings.findChildViewById(rootView, id);
+      if (chipLow == null) {
+        break missingId;
+      }
+
+      id = R.id.chipMedium;
+      Chip chipMedium = ViewBindings.findChildViewById(rootView, id);
+      if (chipMedium == null) {
+        break missingId;
+      }
+
+      id = R.id.chipOffice;
+      Chip chipOffice = ViewBindings.findChildViewById(rootView, id);
+      if (chipOffice == null) {
+        break missingId;
+      }
+
+      id = R.id.chipPersonal;
+      Chip chipPersonal = ViewBindings.findChildViewById(rootView, id);
+      if (chipPersonal == null) {
+        break missingId;
+      }
+
+      id = R.id.chipStudy;
+      Chip chipStudy = ViewBindings.findChildViewById(rootView, id);
+      if (chipStudy == null) {
+        break missingId;
+      }
+
+      id = R.id.etDescription;
+      TextInputEditText etDescription = ViewBindings.findChildViewById(rootView, id);
+      if (etDescription == null) {
+        break missingId;
+      }
+
+      id = R.id.etDueDate;
+      TextInputEditText etDueDate = ViewBindings.findChildViewById(rootView, id);
+      if (etDueDate == null) {
+        break missingId;
+      }
+
+      id = R.id.etTaskDemo;
+      TextView etTaskDemo = ViewBindings.findChildViewById(rootView, id);
+      if (etTaskDemo == null) {
+        break missingId;
+      }
+
+      id = R.id.etTaskName;
+      TextInputEditText etTaskName = ViewBindings.findChildViewById(rootView, id);
+      if (etTaskName == null) {
+        break missingId;
+      }
+
+      return new AcitvityAddBinding((ScrollView) rootView, backHomeBtn, btnSaveTask,
+          chipGroupPriority, chipGroupTaskGroup, chipHealth, chipHigh, chipLow, chipMedium,
+          chipOffice, chipPersonal, chipStudy, etDescription, etDueDate, etTaskDemo, etTaskName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
