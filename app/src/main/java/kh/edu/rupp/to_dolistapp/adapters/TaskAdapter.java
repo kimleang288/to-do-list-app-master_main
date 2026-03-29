@@ -46,14 +46,14 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
         private TextView taskName;
         private TextView taskTitle;
         private ProgressBar progressBar;
-        private View cardBackground;
+        private androidx.cardview.widget.CardView cardBackground; // ✅ Change to CardView type
 
         public TaskViewHolder(@NonNull View itemView) {
             super(itemView);
             taskName = itemView.findViewById(R.id.taskName);
             taskTitle = itemView.findViewById(R.id.taskTitle);
             progressBar = itemView.findViewById(R.id.progressBar);
-//            cardBackground = itemView.findViewById(R.id.cardBackground);
+            cardBackground = itemView.findViewById(R.id.cardBackground); // ✅ Uncomment this
         }
 
         public void bind(Task task) {
@@ -61,14 +61,12 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
             taskName.setText(task.getName());
             progressBar.setProgress(task.getProgress());
 
-//            // Set background color
-//            if (task.getColor() != null && !task.getColor().isEmpty()) {
-//                try {
-//                    cardBackground.setBackgroundColor(Color.parseColor(task.getColor()));
-//                } catch (IllegalArgumentException e) {
-//                    // Handle invalid color
-//                }
-//            }
+            // ✅ Apply card background color
+            if (task.getColor() != null && !task.getColor().isEmpty()) {
+                cardBackground.setCardBackgroundColor(
+                        Color.parseColor(task.getColor())
+                );
+            }
         }
     }
 }

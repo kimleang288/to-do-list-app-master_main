@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "kh.edu.rupp.to_dolistapp-mergeDebugResources-2:/values/values.xml",
+            "outputFile": "kh.edu.rupp.to_dolistapp-mergeDebugResources-44:/values/values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kimleang\\.gradle\\caches\\8.13\\transforms\\0711b26bb7f868bde8f491ced088ee5a\\transformed\\recyclerview-1.4.0\\res\\values\\values.xml",
@@ -23,37 +23,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Lay kimleang\\RUPP\\todo_app\\to-do-list-app-master_main\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\kimleang\\Documents\\GitHub\\to-do-list-app-master_main\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
-                        "startLines": "9,7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "379,293,57,105,153,201,247,336",
-                        "endColumns": "38,41,46,46,46,44,44,41",
-                        "endOffsets": "413,330,99,147,195,241,287,373"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "812"
                     },
                     "to": {
-                        "startLines": "709,723,1178,1179,1180,1191,1192,1195",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "37035,38054,69806,69853,69900,70644,70689,70855",
-                        "endColumns": "38,41,46,46,46,44,44,41",
-                        "endOffsets": "37069,38091,69848,69895,69942,70684,70729,70892"
-                    }
-                },
-                {
-                    "source": "C:\\Lay kimleang\\RUPP\\todo_app\\to-do-list-app-master_main\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "90,149",
-                        "endColumns": "57,55",
-                        "endOffsets": "143,200"
-                    },
-                    "to": {
-                        "startLines": "1277,1278",
-                        "startColumns": "4,4",
-                        "startOffsets": "76346,76404",
-                        "endColumns": "57,55",
-                        "endOffsets": "76399,76455"
+                        "startLines": "7586",
+                        "startColumns": "4",
+                        "startOffsets": "539884",
+                        "endLines": "7598",
+                        "endColumns": "12",
+                        "endOffsets": "540461"
                     }
                 },
                 {
@@ -146,6 +131,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\kimleang\\Documents\\GitHub\\to-do-list-app-master_main\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "9,7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "379,293,57,105,153,201,247,336",
+                        "endColumns": "38,41,46,46,46,44,44,41",
+                        "endOffsets": "413,330,99,147,195,241,287,373"
+                    },
+                    "to": {
+                        "startLines": "709,723,1178,1179,1180,1191,1192,1195",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "37035,38054,69806,69853,69900,70644,70689,70855",
+                        "endColumns": "38,41,46,46,46,44,44,41",
+                        "endOffsets": "37069,38091,69848,69895,69942,70684,70729,70892"
+                    }
+                },
+                {
                     "source": "C:\\Users\\kimleang\\.gradle\\caches\\8.13\\transforms\\a54ebfd64d72c08d54e8f8576ee69d3a\\transformed\\core-viewtree-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -201,22 +203,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Lay kimleang\\RUPP\\todo_app\\to-do-list-app-master_main\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\kimleang\\Documents\\GitHub\\to-do-list-app-master_main\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "812"
+                        "startLines": "8,1,11,10,9,3,5,4,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "299,17,461,407,352,72,179,134,234",
+                        "endColumns": "51,51,51,52,53,60,53,43,61",
+                        "endOffsets": "346,64,508,455,401,128,228,173,291"
                     },
                     "to": {
-                        "startLines": "7586",
-                        "startColumns": "4",
-                        "startOffsets": "539884",
-                        "endLines": "7598",
-                        "endColumns": "12",
-                        "endOffsets": "540461"
+                        "startLines": "2457,2459,2477,2488,2616,2626,2627,2628,2629",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "164214,164349,166339,167383,185236,186270,186331,186385,186429",
+                        "endColumns": "51,51,51,52,53,60,53,43,61",
+                        "endOffsets": "164261,164396,166386,167431,185285,186326,186380,186424,186486"
                     }
                 },
                 {
@@ -236,23 +236,6 @@
                         "endLines": "2289,10728,13996,14002",
                         "endColumns": "52,24,24,24",
                         "endOffsets": "153807,751353,872993,873235"
-                    }
-                },
-                {
-                    "source": "C:\\Lay kimleang\\RUPP\\todo_app\\to-do-list-app-master_main\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "8,1,11,10,9,3,5,4,6",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "299,17,461,407,352,72,179,134,234",
-                        "endColumns": "51,51,51,52,53,60,53,43,61",
-                        "endOffsets": "346,64,508,455,401,128,228,173,291"
-                    },
-                    "to": {
-                        "startLines": "2457,2459,2477,2488,2616,2626,2627,2628,2629",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "164214,164349,166339,167383,185236,186270,186331,186385,186429",
-                        "endColumns": "51,51,51,52,53,60,53,43,61",
-                        "endOffsets": "164261,164396,166386,167431,185285,186326,186380,186424,186486"
                     }
                 },
                 {
@@ -399,6 +382,23 @@
                         "endLines": "13978,13984,13990,13993,14232",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "872254,872498,872745,872878,880343"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kimleang\\Documents\\GitHub\\to-do-list-app-master_main\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "90,149",
+                        "endColumns": "57,55",
+                        "endOffsets": "143,200"
+                    },
+                    "to": {
+                        "startLines": "1277,1278",
+                        "startColumns": "4,4",
+                        "startOffsets": "76346,76404",
+                        "endColumns": "57,55",
+                        "endOffsets": "76399,76455"
                     }
                 },
                 {

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.databinding:viewbinding:8.13.2] C:\Users\kimleang\.gradle\caches\8.13\transforms\1c46441a2926f88dd5b59ccf9a91ed89\transformed\viewbinding-8.13.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-runtime-android:2.9.6] C:\Users\kimleang\.gradle\caches\8.13\transforms\c7f681dce5bf9135fff217fa1e5bb90c\transformed\navigation-runtime-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-android:2.9.6] C:\Users\kimleang\.gradle\caches\8.13\transforms\c6feccf222625057b48334102a452bfe\transformed\navigation-common-release\AndroidManifest.xml:17:1-22:12
@@ -62,22 +62,22 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\kimlean
 MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\a54ebfd64d72c08d54e8f8576ee69d3a\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\00c274baae3d8d4dbe23d499e0b5294f\transformed\exifinterface-27.1.0\AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:4:5-66
+ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:4:5-66
 	android:name
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:6:5-28:19
-INJECTED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:6:5-28:19
+ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:6:5-28:19
+INJECTED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:6:5-28:19
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\c7f4c278b1c0f736eadc52e422fcfd94\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\c7f4c278b1c0f736eadc52e422fcfd94\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\kimleang\.gradle\caches\8.13\transforms\bae3004c6b93fbeb905b54289bfcf123\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -99,57 +99,57 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kimleang\.gradle\c
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kimleang\.gradle\caches\8.13\transforms\55ae719d9600036dc90f0a73902f86e2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kimleang\.gradle\caches\8.13\transforms\55ae719d9600036dc90f0a73902f86e2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\kimleang\.gradle\caches\8.13\transforms\710e4144c1dfe342e89dc80a37431ba3\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:11:9-41
 	android:fullBackupContent
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:9:9-54
 	android:roundIcon
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:14:9-49
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:14:9-49
 	android:dataExtractionRules
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:8:9-65
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:8:9-65
 activity#kh.edu.rupp.to_dolistapp.LoginActivity
-ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:16:9-21:20
+ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:16:9-21:20
 	android:exported
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:16:49-72
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:16:49-72
 	android:name
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:16:19-48
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:16:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:17:13-20:29
+ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:17:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:18:17-68
+ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:18:17-68
 	android:name
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:19:17-76
+ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:19:17-76
 	android:name
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:19:27-74
 activity#kh.edu.rupp.to_dolistapp.MainActivity
-ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:23:9-74
+ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:23:9-74
 	android:exported
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:23:48-72
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:23:48-72
 	android:name
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:23:19-47
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:23:19-47
 activity#kh.edu.rupp.to_dolistapp.AddActivity
-ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:26:9-74
+ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:26:9-74
 	android:exported
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:26:47-71
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:26:47-71
 	android:name
-		ADDED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:26:19-46
+		ADDED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:26:19-46
 uses-sdk
-INJECTED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml
-INJECTED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:8.13.2] C:\Users\kimleang\.gradle\caches\8.13\transforms\1c46441a2926f88dd5b59ccf9a91ed89\transformed\viewbinding-8.13.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.13.2] C:\Users\kimleang\.gradle\caches\8.13\transforms\1c46441a2926f88dd5b59ccf9a91ed89\transformed\viewbinding-8.13.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-runtime-android:2.9.6] C:\Users\kimleang\.gradle\caches\8.13\transforms\c7f681dce5bf9135fff217fa1e5bb90c\transformed\navigation-runtime-release\AndroidManifest.xml:20:5-44
@@ -265,9 +265,9 @@ MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\kimleang\.gradle\caches
 MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\00c274baae3d8d4dbe23d499e0b5294f\transformed\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\00c274baae3d8d4dbe23d499e0b5294f\transformed\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\51f964c64838dc3c1705dfda6e47b76d\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\775bd35cc7a1afe5f84a5fbadbb72730\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:24:9-32:20

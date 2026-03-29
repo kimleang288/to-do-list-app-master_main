@@ -5,6 +5,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface TaskService {
-    @GET("RakZ77/to-do-list-json-api/refs/heads/main/tasks.json")
+    @GET("kimleang288/MobileApp_API/refs/heads/main/tasks.json")
     Call<TaskResponse> getTasks();
 }

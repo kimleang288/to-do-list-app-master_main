@@ -9,8 +9,8 @@
 9        android:targetSdkVersion="36" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:4:5-66
-11-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:4:22-64
+11-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:4:22-64
 12
 13    <permission
 13-->[androidx.core:core:1.13.1] C:\Users\kimleang\.gradle\caches\8.13\transforms\710e4144c1dfe342e89dc80a37431ba3\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
@@ -24,59 +24,59 @@
 17-->[androidx.core:core:1.13.1] C:\Users\kimleang\.gradle\caches\8.13\transforms\710e4144c1dfe342e89dc80a37431ba3\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:6:5-28:19
+19-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:6:5-28:19
 20        android:allowBackup="true"
-20-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:7:9-35
+20-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:7:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.13.1] C:\Users\kimleang\.gradle\caches\8.13\transforms\710e4144c1dfe342e89dc80a37431ba3\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 22        android:dataExtractionRules="@xml/data_extraction_rules"
-22-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:8:9-65
+22-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:8:9-65
 23        android:debuggable="true"
 24        android:extractNativeLibs="false"
 25        android:fullBackupContent="@xml/backup_rules"
-25-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:9:9-54
+25-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:9:9-54
 26        android:icon="@mipmap/ic_launcher"
-26-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:10:9-43
+26-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:10:9-43
 27        android:label="@string/app_name"
-27-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:11:9-41
+27-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:11:9-41
 28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:12:9-54
+28-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:12:9-54
 29        android:supportsRtl="true"
-29-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:13:9-35
+29-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:13:9-35
 30        android:testOnly="true"
 31        android:theme="@style/Theme.ToDoListApp" >
-31-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:14:9-49
+31-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:14:9-49
 32        <activity
-32-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:16:9-21:20
+32-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:16:9-21:20
 33            android:name="kh.edu.rupp.to_dolistapp.LoginActivity"
-33-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:16:19-48
+33-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:16:19-48
 34            android:exported="true" >
-34-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:16:49-72
+34-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:16:49-72
 35            <intent-filter>
-35-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:17:13-20:29
+35-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:17:13-20:29
 36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:18:17-68
-36-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:18:25-66
+36-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:18:17-68
+36-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:18:25-66
 37
 38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:19:17-76
-38-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:19:27-74
+38-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:19:17-76
+38-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:19:27-74
 39            </intent-filter>
 40        </activity>
 41        <activity
-41-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:23:9-74
+41-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:23:9-74
 42            android:name="kh.edu.rupp.to_dolistapp.MainActivity"
-42-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:23:19-47
+42-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:23:19-47
 43            android:exported="false" />
-43-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:23:48-72
+43-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:23:48-72
 44
 45        <!-- Add this line here -->
 46        <activity
-46-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:26:9-74
+46-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:26:9-74
 47            android:name="kh.edu.rupp.to_dolistapp.AddActivity"
-47-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:26:19-46
+47-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:26:19-46
 48            android:exported="false" />
-48-->C:\Lay kimleang\RUPP\todo_app\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:26:47-71
+48-->C:\Users\kimleang\Documents\GitHub\to-do-list-app-master_main\app\src\main\AndroidManifest.xml:26:47-71
 49
 50        <provider
 50-->[androidx.emoji2:emoji2:1.3.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\51f964c64838dc3c1705dfda6e47b76d\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
