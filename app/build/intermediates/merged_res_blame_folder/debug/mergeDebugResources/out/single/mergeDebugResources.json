@@ -1,202 +1,222 @@
 [
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\layout_task_group_view.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\layout\\task_group_view.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_ic_add.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\ic_add.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\layout_acitvity_add.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\acitvity_add.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_document_text.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\document_text.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\layout_activity_task_list.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\activity_task_list.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_arrow_left.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\arrow_left.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_book.png.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\book.png"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_home.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\home.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_user_octagon.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\user_octagon.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\menu_bottom_nav_menu.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\menu\\bottom_nav_menu.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_useroctagon.png.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\useroctagon.png"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_user_octagon.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\user_octagon.xml"
     },
     {
-        "merged": "kh.edu.rupp.to_dolistapp-debug-46:/menu_bottom_nav_menu.xml.flat",
-        "source": "kh.edu.rupp.to_dolistapp-main-48:/menu/bottom_nav_menu.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_circle.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\circle.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_ic_home_black_24dp.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\ic_home_black_24dp.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_briefcase.png.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\briefcase.png"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_arrow_right.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\arrow_right.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_arrow_right.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\arrow_right.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_profile_iamge.png.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\profile_iamge.png"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\layout_progress_task_view.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\layout\\progress_task_view.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\ic_home_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_icon.png.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\icon.png"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_user_profile_picture.png.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\user_profile_picture.png"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_ic_notifications_black_24dp.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\ic_notifications_black_24dp.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_user_profile_picture.png.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\user_profile_picture.png"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_calendar.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\calendar.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\layout_fragment_today_tasks.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\fragment_today_tasks.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_briefcase.png.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\briefcase.png"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\ic_dashboard_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_arrow_left.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\arrow_left.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_home.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\home.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_notification.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\notification.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_ic_add_task_24.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\ic_add_task_24.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_ellipse.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\ellipse.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_arrow_down_4.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\arrow_down_4.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_calendar.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\calendar.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_icon.png.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\icon.png"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\layout_progress_task_view.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\progress_task_view.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_add.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\add.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\layout_task_group_view.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\task_group_view.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_circle.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\circle.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_book.png.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\book.png"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_office_project.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\office_project.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_ellipse.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\ellipse.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_document_text.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\document_text.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_ic_dashboard_black_24dp.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\ic_dashboard_black_24dp.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_start_cover.png.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\start_cover.png"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_profile_2user.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\profile_2user.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\ic_add.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_profile_iamge.png.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\profile_iamge.png"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\layout_acitvity_add.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\layout\\acitvity_add.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_profile_2user.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\profile_2user.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\layout_fragment_upcoming.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\fragment_upcoming.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_useroctagon.png.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\useroctagon.png"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\layout_today_task_view.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\today_task_view.xml"
     },
     {
-        "merged": "kh.edu.rupp.to_dolistapp-debug-46:/layout_acitvity_add.xml.flat",
-        "source": "kh.edu.rupp.to_dolistapp-main-48:/layout/acitvity_add.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_more.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\more.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_more.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\more.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_notification.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\notification.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_arrow_down_4.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\arrow_down_4.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_start_cover.png.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\start_cover.png"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-46:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-48:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\layout_fragment_completed.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\fragment_completed.xml"
+    },
+    {
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_office_project.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\office_project.xml"
+    },
+    {
+        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-debug-49:\\drawable_add.xml.flat",
+        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\drawable\\add.xml"
+    },
+    {
+        "merged": "kh.edu.rupp.to_dolistapp-debug-49:/layout_activity_task_list.xml.flat",
+        "source": "kh.edu.rupp.to_dolistapp-main-51:/layout/activity_task_list.xml"
     }
 ]

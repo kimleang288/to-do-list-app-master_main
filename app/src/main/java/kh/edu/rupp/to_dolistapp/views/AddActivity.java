@@ -1,6 +1,7 @@
-package kh.edu.rupp.to_dolistapp;
+package kh.edu.rupp.to_dolistapp.views;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.DatePicker;
@@ -10,6 +11,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 import java.util.Calendar;
+import kh.edu.rupp.to_dolistapp.R;
+import kh.edu.rupp.to_dolistapp.models.Task;
+import kh.edu.rupp.to_dolistapp.repository.TaskRepository; // ✅ add import
 
 public class AddActivity extends AppCompatActivity {
 
@@ -18,11 +22,15 @@ public class AddActivity extends AppCompatActivity {
     private TextInputEditText etDueDate;
     private MaterialButton btnSaveTask;
     private ImageButton backHomeBtn;
+    private TaskRepository repository; // ✅ declare here
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.acitvity_add);
+
+        // ✅ Initialize repository
+        repository = new TaskRepository(this);
 
         // Find all views
         etTaskName = findViewById(R.id.etTaskName);
@@ -31,7 +39,7 @@ public class AddActivity extends AppCompatActivity {
         btnSaveTask = findViewById(R.id.btnSaveTask);
         backHomeBtn = findViewById(R.id.backHomeBtn);
 
-        // Back button → go back to MainActivity
+        // Back button
         backHomeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -39,7 +47,7 @@ public class AddActivity extends AppCompatActivity {
             }
         });
 
-        // Due date field → show date picker
+        // Date picker
         etDueDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,7 +85,6 @@ public class AddActivity extends AppCompatActivity {
         String description = etDescription.getText().toString().trim();
         String dueDate = etDueDate.getText().toString().trim();
 
-        // Validate fields
         if (name.isEmpty()) {
             etTaskName.setError("Task name is required");
             return;
@@ -87,8 +94,20 @@ public class AddActivity extends AppCompatActivity {
             return;
         }
 
-        // Show success message
-        Toast.makeText(this, "Task '" + name + "' Saved!", Toast.LENGTH_SHORT).show();
-        finish(); // go back to MainActivity
+        // Create task object
+        Task task = new Task();
+        task.setTitle(name);
+        task.setName(description);
+        task.setDueDate(dueDate);
+        task.setProgress(0);
+        task.setColor("#6B3FA0");
+
+        // Save to database
+        repository.insertTask(task);
+
+        // Go to TasksFragment
+        Intent intent = new Intent(this, TasksActivity.class);
+        startActivity(intent);
+        finish();
     }
 }

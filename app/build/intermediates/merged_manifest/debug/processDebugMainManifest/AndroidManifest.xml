@@ -30,7 +30,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.ToDoListApp" >
         <activity
-            android:name="kh.edu.rupp.to_dolistapp.LoginActivity"
+            android:name="kh.edu.rupp.to_dolistapp.views.LoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,13 +39,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="kh.edu.rupp.to_dolistapp.MainActivity"
+            android:name="kh.edu.rupp.to_dolistapp.views.MainActivity"
             android:exported="false" />
 
         <!-- Add this line here -->
         <activity
-            android:name="kh.edu.rupp.to_dolistapp.AddActivity"
+            android:name="kh.edu.rupp.to_dolistapp.views.AddActivity"
             android:exported="false" />
+        <activity android:name="kh.edu.rupp.to_dolistapp.views.TasksActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
@@ -72,6 +73,11 @@
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
             android:authorities="kh.edu.rupp.to_dolistapp.com.squareup.picasso"
+            android:exported="false" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
             android:exported="false" />
 
         <receiver
