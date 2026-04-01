@@ -50,7 +50,9 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.10.0] C:\Users\kimleang\.gr
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\61484232cdebfa27c9d21730ccae345e\transformed\lifecycle-viewmodel-ktx-2.10.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.10.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\892b3df36e07d9a89962f43fc4ec5e14\transformed\lifecycle-livedata-ktx-2.10.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\kimleang\.gradle\caches\8.13\transforms\adf729e8e65979bddc9618225e95ca52\transformed\picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.2] C:\Users\kimleang\.gradle\caches\8.13\transforms\82fd3bc244b44167b9d8846da4a112be\transformed\rxandroid-3.0.2\AndroidManifest.xml:15:1-20:12
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\kimleang\.gradle\caches\8.13\transforms\0e26db41745e11a7291b4348149fb8aa\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-rxjava3:2.6.1] C:\Users\kimleang\.gradle\caches\8.13\transforms\a8f39fb860f9c0b2263ec4cc77d49c1c\transformed\room-rxjava3-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\d5377af6010d5a7dad74dc73f19d206d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\88fc7fb4c438e1b3f0459884485c5ae3\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\47b2de13c583712a809c42fc81b01efe\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
@@ -251,8 +253,12 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.10.0] C:\Users\kimleang
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.10.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\892b3df36e07d9a89962f43fc4ec5e14\transformed\lifecycle-livedata-ktx-2.10.0\AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\kimleang\.gradle\caches\8.13\transforms\adf729e8e65979bddc9618225e95ca52\transformed\picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\kimleang\.gradle\caches\8.13\transforms\adf729e8e65979bddc9618225e95ca52\transformed\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.2] C:\Users\kimleang\.gradle\caches\8.13\transforms\82fd3bc244b44167b9d8846da4a112be\transformed\rxandroid-3.0.2\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.2] C:\Users\kimleang\.gradle\caches\8.13\transforms\82fd3bc244b44167b9d8846da4a112be\transformed\rxandroid-3.0.2\AndroidManifest.xml:18:5-43
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\kimleang\.gradle\caches\8.13\transforms\0e26db41745e11a7291b4348149fb8aa\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\kimleang\.gradle\caches\8.13\transforms\0e26db41745e11a7291b4348149fb8aa\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-rxjava3:2.6.1] C:\Users\kimleang\.gradle\caches\8.13\transforms\a8f39fb860f9c0b2263ec4cc77d49c1c\transformed\room-rxjava3-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-rxjava3:2.6.1] C:\Users\kimleang\.gradle\caches\8.13\transforms\a8f39fb860f9c0b2263ec4cc77d49c1c\transformed\room-rxjava3-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\d5377af6010d5a7dad74dc73f19d206d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\d5377af6010d5a7dad74dc73f19d206d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kimleang\.gradle\caches\8.13\transforms\88fc7fb4c438e1b3f0459884485c5ae3\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44

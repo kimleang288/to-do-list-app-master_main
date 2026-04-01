@@ -1,50 +1,46 @@
 [
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-mergeDebugResources-48:\\layout\\acitvity_add.xml",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\acitvity_add.xml"
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-49:/layout/fragment_completed.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-52:/layout/fragment_completed.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-mergeDebugResources-48:\\layout\\fragment_upcoming.xml",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\fragment_upcoming.xml"
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-49:/layout/fragment_home.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-52:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-mergeDebugResources-48:\\layout\\today_task_view.xml",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\today_task_view.xml"
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-49:/layout/task_group_view.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-52:/layout/task_group_view.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-mergeDebugResources-48:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\activity_login.xml"
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-49:/layout/progress_task_view.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-52:/layout/progress_task_view.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-mergeDebugResources-48:\\layout\\task_group_view.xml",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\task_group_view.xml"
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-49:/layout/fragment_today_tasks.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-52:/layout/fragment_today_tasks.xml"
     },
     {
-        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-48:/layout/activity_task_list.xml",
-        "source": "kh.edu.rupp.to_dolistapp-main-51:/layout/activity_task_list.xml"
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-49:/layout/activity_main.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-52:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-mergeDebugResources-48:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\fragment_home.xml"
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-49:/layout/activity_login.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-52:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-mergeDebugResources-48:\\layout\\progress_task_view.xml",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\progress_task_view.xml"
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-49:/layout/acitvity_add.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-52:/layout/acitvity_add.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-mergeDebugResources-48:\\layout\\activity_task_list.xml",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\activity_task_list.xml"
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-49:/layout/fragment_upcoming.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-52:/layout/fragment_upcoming.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-mergeDebugResources-48:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\activity_main.xml"
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-49:/layout/activity_task_list.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-52:/layout/activity_task_list.xml"
     },
     {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-mergeDebugResources-48:\\layout\\fragment_completed.xml",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\fragment_completed.xml"
-    },
-    {
-        "merged": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-mergeDebugResources-48:\\layout\\fragment_today_tasks.xml",
-        "source": "C:\\Users\\kimleang\\.gradle\\daemon\\8.13\\kh.edu.rupp.to_dolistapp-main-51:\\layout\\fragment_today_tasks.xml"
+        "merged": "kh.edu.rupp.to_dolistapp-mergeDebugResources-49:/layout/today_task_view.xml",
+        "source": "kh.edu.rupp.to_dolistapp-main-52:/layout/today_task_view.xml"
     }
 ]

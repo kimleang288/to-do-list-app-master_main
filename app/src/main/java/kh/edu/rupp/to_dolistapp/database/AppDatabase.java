@@ -6,7 +6,7 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import kh.edu.rupp.to_dolistapp.models.Task;
 
-@Database(entities = {Task.class}, version = 1)
+@Database(entities = {Task.class}, version = 2) // ← bump to 2 because we added description
 public abstract class AppDatabase extends RoomDatabase {
 
     private static AppDatabase instance;

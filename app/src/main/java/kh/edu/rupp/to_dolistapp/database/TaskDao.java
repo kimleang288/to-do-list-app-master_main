@@ -1,26 +1,27 @@
 package kh.edu.rupp.to_dolistapp.database;
 
-import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 import java.util.List;
+import io.reactivex.rxjava3.core.Completable;
+import io.reactivex.rxjava3.core.Flowable;
 import kh.edu.rupp.to_dolistapp.models.Task;
 
 @Dao
 public interface TaskDao {
 
     @Query("SELECT * FROM tasks")
-    LiveData<List<Task>> getAllTasks();
+    Flowable<List<Task>> getAllTasks(); // ← LiveData replaced with Flowable
 
     @Insert
-    void insertTask(Task task);
+    Completable insertTask(Task task); // ← void replaced with Completable
 
     @Update
-    void updateTask(Task task);
+    Completable updateTask(Task task); // ← void replaced with Completable
 
     @Delete
-    void deleteTask(Task task);
+    Completable deleteTask(Task task); // ← void replaced with Completable
 }
