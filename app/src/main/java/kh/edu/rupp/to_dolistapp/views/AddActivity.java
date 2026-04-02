@@ -8,22 +8,29 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 import java.util.Calendar;
+import java.util.List;
 import kh.edu.rupp.to_dolistapp.R;
-import kh.edu.rupp.to_dolistapp.controller.TaskController;
+import kh.edu.rupp.to_dolistapp.models.Task;
+import kh.edu.rupp.to_dolistapp.models.TaskGroup;
+import kh.edu.rupp.to_dolistapp.presenter.TaskPresenter;
 
-public class AddActivity extends AppCompatActivity {
+// ✅ implements TaskPresenter.TaskView — this is MVP
+public class AddActivity extends AppCompatActivity implements TaskPresenter.TaskView {
 
     private TextInputEditText etTaskName, etDescription, etDueDate;
     private MaterialButton btnSaveTask;
     private ImageButton backHomeBtn;
-    private TaskController taskController;
+    private TaskPresenter presenter; // ← renamed to presenter
+
+    @Override
+    public void onTaskGroupsLoaded(List<TaskGroup> groups) { }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.acitvity_add);
 
-        taskController = new TaskController(this);
+        presenter = new TaskPresenter(this, this); // ← pass itself as View
 
         etTaskName    = findViewById(R.id.etTaskName);
         etDescription = findViewById(R.id.etDescription);
@@ -33,7 +40,6 @@ public class AddActivity extends AppCompatActivity {
 
         backHomeBtn.setOnClickListener(v -> finish());
 
-        // Date picker
         etDueDate.setOnClickListener(v -> {
             Calendar calendar = Calendar.getInstance();
             new DatePickerDialog(
@@ -48,31 +54,39 @@ public class AddActivity extends AppCompatActivity {
             ).show();
         });
 
-        // Save button using RxJava controller
         btnSaveTask.setOnClickListener(v -> {
             String name        = etTaskName.getText().toString().trim();
             String description = etDescription.getText().toString().trim();
             String dueDate     = etDueDate.getText().toString().trim();
 
-            taskController.insertTask(name, description, dueDate, new TaskController.SaveCallBack() {
-                @Override
-                public void onSaved() {
-                    startActivity(new Intent(AddActivity.this, TasksActivity.class));
-                    finish();
-                }
-
-                @Override
-                public void onError(String message) {
-                    if (message.contains("name")) etTaskName.setError(message);
-                    else etDueDate.setError(message);
-                }
-            });
+            presenter.insertTask(name, description, dueDate); // ← no callback needed
         });
+    }
+
+    // ✅ Presenter calls this when task is saved
+    @Override
+    public void onTaskSaved() {
+        startActivity(new Intent(this, TasksActivity.class));
+        finish();
+    }
+
+    // ✅ Not used in AddActivity but must be implemented
+    @Override
+    public void onTasksLoaded(List<Task> tasks) { }
+
+    @Override
+    public void onTaskDeleted() { }
+
+    // ✅ Presenter calls this on validation error
+    @Override
+    public void onError(String message) {
+        if (message.contains("name")) etTaskName.setError(message);
+        else etDueDate.setError(message);
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        taskController.dispose(); // ← prevent memory leaks
+        presenter.dispose(); // ← prevent memory leaks
     }
 }

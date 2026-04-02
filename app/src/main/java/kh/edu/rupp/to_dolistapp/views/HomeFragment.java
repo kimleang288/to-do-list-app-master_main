@@ -13,20 +13,19 @@ import java.util.ArrayList;
 import java.util.List;
 import kh.edu.rupp.to_dolistapp.adapters.TaskAdapter;
 import kh.edu.rupp.to_dolistapp.adapters.TaskGroupAdapter;
-import kh.edu.rupp.to_dolistapp.controller.TaskController;
 import kh.edu.rupp.to_dolistapp.databinding.FragmentHomeBinding;
 import kh.edu.rupp.to_dolistapp.models.Task;
 import kh.edu.rupp.to_dolistapp.models.TaskGroup;
-import kh.edu.rupp.to_dolistapp.repository.TaskRepository;
+import kh.edu.rupp.to_dolistapp.presenter.TaskPresenter;
 
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements TaskPresenter.TaskView {
 
     private TaskAdapter taskAdapter;
     private TaskGroupAdapter taskGroupAdapter;
     private List<Task> inProgressTasks = new ArrayList<>();
     private List<TaskGroup> taskGroups = new ArrayList<>();
     private FragmentHomeBinding binding;
-    private TaskController taskController; // ← use controller
+    private TaskPresenter presenter;
 
     @Nullable
     @Override
@@ -39,7 +38,7 @@ public class HomeFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        taskController = new TaskController(requireContext()); // ← init controller
+        presenter = new TaskPresenter(requireContext(), this);
 
         taskAdapter = new TaskAdapter(inProgressTasks);
         binding.recyclerViewProgress.setLayoutManager(
@@ -50,29 +49,39 @@ public class HomeFragment extends Fragment {
         binding.recyclerViewTaskGroups.setLayoutManager(new LinearLayoutManager(getContext()));
         binding.recyclerViewTaskGroups.setAdapter(taskGroupAdapter);
 
-        loadTasks();
+        presenter.fetchRemoteTasks();
     }
 
-    private void loadTasks() {
-        taskController.fetchRemoteTasks(new TaskRepository.OnRemoteTasksFetchedListener() {
-            @Override
-            public void onSuccess(kh.edu.rupp.to_dolistapp.models.TaskResponse taskResponse) {
-                if (taskResponse.getInProgress() != null) {
-                    inProgressTasks.clear();
-                    inProgressTasks.addAll(taskResponse.getInProgress());
-                    taskAdapter.notifyDataSetChanged();
-                }
-                if (taskResponse.getTaskGroups() != null) {
-                    taskGroups.clear();
-                    taskGroups.addAll(taskResponse.getTaskGroups());
-                    taskGroupAdapter.notifyDataSetChanged();
-                }
-            }
+    // ✅ Presenter calls this for in progress tasks
+    @Override
+    public void onTasksLoaded(List<Task> tasks) {
+        inProgressTasks.clear();
+        inProgressTasks.addAll(tasks);
+        taskAdapter.notifyDataSetChanged();
+    }
 
-            @Override
-            public void onError(String message) {
-                Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
-            }
-        });
+    // ✅ Presenter calls this for task groups
+    @Override
+    public void onTaskGroupsLoaded(List<TaskGroup> groups) {
+        taskGroups.clear();
+        taskGroups.addAll(groups);
+        taskGroupAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void onTaskSaved() { }
+
+    @Override
+    public void onTaskDeleted() { }
+
+    @Override
+    public void onError(String message) {
+        Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        presenter.dispose();
     }
 }

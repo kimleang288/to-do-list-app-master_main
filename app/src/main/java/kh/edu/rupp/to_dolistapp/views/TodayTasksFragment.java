@@ -14,12 +14,14 @@ import java.util.ArrayList;
 import java.util.List;
 import kh.edu.rupp.to_dolistapp.R;
 import kh.edu.rupp.to_dolistapp.adapters.TodayTaskAdapter;
-import kh.edu.rupp.to_dolistapp.controller.TaskController;
 import kh.edu.rupp.to_dolistapp.models.Task;
+import kh.edu.rupp.to_dolistapp.models.TaskGroup;
+import kh.edu.rupp.to_dolistapp.presenter.TaskPresenter;
 
-public class TodayTasksFragment extends Fragment {
+// ✅ implements TaskPresenter.TaskView — this is MVP
+public class TodayTasksFragment extends Fragment implements TaskPresenter.TaskView {
 
-    private TaskController taskController;
+    private TaskPresenter presenter;
     private TodayTaskAdapter taskAdapter;
     private RecyclerView recyclerView;
 
@@ -33,31 +35,42 @@ public class TodayTasksFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        taskController = new TaskController(requireContext());
+        presenter = new TaskPresenter(requireContext(), this); // ← pass itself as View
 
         recyclerView = view.findViewById(R.id.recyclerViewTasks);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         taskAdapter = new TodayTaskAdapter(new ArrayList<>());
         recyclerView.setAdapter(taskAdapter);
 
-        // RxJava instead of LiveData
-        taskController.loadAllTasks(new TaskController.TaskCallBack() {
-            @Override
-            public void onTaskLoaded(List<Task> tasks) {
-                taskAdapter = new TodayTaskAdapter(tasks);
-                recyclerView.setAdapter(taskAdapter);
-            }
+        presenter.loadTasks(); // ← presenter loads, then calls onTasksLoaded()
+    }
 
-            @Override
-            public void onError(String message) {
-                Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
-            }
-        });
+    // ✅ Presenter calls this when tasks are ready
+    @Override
+    public void onTasksLoaded(List<Task> tasks) {
+        taskAdapter = new TodayTaskAdapter(tasks);
+        recyclerView.setAdapter(taskAdapter);
+    }
+    @Override
+    public void onTaskGroupsLoaded(List<TaskGroup> groups) { }
+
+    // ✅ Presenter calls this when task is saved
+    @Override
+    public void onTaskSaved() { }
+
+    // ✅ Presenter calls this when task is deleted
+    @Override
+    public void onTaskDeleted() { }
+
+    // ✅ Presenter calls this on any error
+    @Override
+    public void onError(String message) {
+        Toast.makeText(getContext(), message, Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        taskController.dispose(); // ← prevent memory leaks
+        presenter.dispose(); // ← prevent memory leaks
     }
 }
