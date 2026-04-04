@@ -39,23 +39,32 @@ dependencies {
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.constraintlayout)
-    implementation(libs.lifecycle.livedata.ktx)
-    implementation(libs.lifecycle.viewmodel.ktx)
+
+    // RecyclerView
+    implementation(libs.recyclerview)
+
+    // Navigation
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
-    implementation(libs.recyclerview)
+
+    // Lifecycle (MVVM)
+    implementation(libs.lifecycle.livedata.ktx)
+    implementation(libs.lifecycle.viewmodel.ktx)
+
+    // Retrofit (API)
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
+
+    // Image loading
     implementation(libs.picasso)
+
+    // RxJava
     implementation("io.reactivex.rxjava3:rxjava:3.1.6")
     implementation("io.reactivex.rxjava3:rxandroid:3.0.2")
-    implementation("androidx.room:room-rxjava3:2.6.1")
 
-    // ✅ Room Database - added
+    // Room Database
     implementation("androidx.room:room-runtime:2.6.1")
+    implementation("androidx.room:room-rxjava3:2.6.1")
     annotationProcessor("androidx.room:room-compiler:2.6.1")
 
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.ext.junit)
-    androidTestImplementation(libs.espresso.core)
 }
